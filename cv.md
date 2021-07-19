@@ -113,3 +113,23 @@ electronics and industrial automation;
 * Polish - Upper-Intermediate
 * Russian - Native
 * Ukrainian - Native
+
+## **Courses and Trainings**
+### **English language school "GreenForest"** 
+### *Level: Intermediate*
+#### September 2009 - June 2010 | Kyiv (Ukraine)
+### **DACPOL Sp. z o.o., ul. Puławska 34, 05-500 Piaseczno k/Warszawy (www.dacpol.com.pl)**
+### *Traineeship: "The principles works of the company manufacturers and dealers"*
+#### July 2010 - August 2010 | Warsaw (Poland)
+### **Complex Yoga Instructor Course**
+### *Certificate of SANITARY YOGA for spine and locomotor system correction and strengthening*
+#### October 2013 - December 2013 | Lviv (Ukraine)
+### **Сertified Thai massage course**
+### *Basic level*
+#### September 2016 - October 2016| Lviv (Ukraine)
+### **Devdan Yoga International School**
+### *Certificate of Yoga Teacher acreditate Yoga Alliance United Kingdom and EU, RYT100*
+#### January 2019 - February 2019| Lviv (Ukraine)
+### **RS School**
+### *Preparatory Course "JavaScript/Front-end. Stage 0"
+#### July 2021 - September 2021| Lviv (Ukraine)
