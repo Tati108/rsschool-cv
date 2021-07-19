@@ -1,5 +1,5 @@
 # **Tetiana Perevozniuk**
-*Front-End Developer*
+## *Front-End Developer*
 
 Goal oriented, responsible, high efficiency, initiative, communicability, positive, discipline, quick learner, having the ability to work in a team.
 
@@ -102,7 +102,7 @@ electronics and industrial automation;
 ## **Education**
 ### **National Technical University of Ukraine "Kyiv Polytechnic Institute" (NTUU "KPI")** 
 ### *Automation control electromechanical complexes and electrical actuator*
-### *Master degree*
+*Master degree*
 #### Septermber 2005 - June 2011 | Kyiv (Ukraine)
 
 ## **Languages**
@@ -113,22 +113,22 @@ electronics and industrial automation;
 
 ## **Courses and Trainings**
 ### **English language school "GreenForest"** 
-### *Level: Intermediate*
+*Level: Intermediate*
 #### September 2009 - June 2010 | Kyiv (Ukraine)
 ### **DACPOL Sp. z o.o., ul. Puławska 34, 05-500 Piaseczno k/Warszawy (www.dacpol.com.pl)**
-### *Traineeship: "The principles works of the company manufacturers and dealers"*
+*Traineeship: "The principles works of the company manufacturers and dealers"*
 #### July 2010 - August 2010 | Warsaw (Poland)
 ### **Complex Yoga Instructor Course**
-### *Certificate of SANITARY YOGA for spine and locomotor system correction and strengthening*
+*Certificate of SANITARY YOGA for spine and locomotor system correction and strengthening*
 #### October 2013 - December 2013 | Lviv (Ukraine)
 ### **Сertified Thai massage course**
-### *Basic level*
+*Basic level*
 #### September 2016 - October 2016| Lviv (Ukraine)
 ### **Devdan Yoga International School**
-### *Certificate of Yoga Teacher acreditate Yoga Alliance United Kingdom and EU, RYT100*
+*Certificate of Yoga Teacher acreditate Yoga Alliance United Kingdom and EU, RYT100*
 #### January 2019 - February 2019| Lviv (Ukraine)
 ### **RS School**
-### *Preparatory Course "JavaScript/Front-end. Stage 0"
+*Preparatory Course "JavaScript/Front-end. Stage 0"
 #### July 2021 - September 2021| Lviv (Ukraine)
 
 ## **Interests**
