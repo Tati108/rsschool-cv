@@ -133,3 +133,6 @@ electronics and industrial automation;
 ### **RS School**
 ### *Preparatory Course "JavaScript/Front-end. Stage 0"
 #### July 2021 - September 2021| Lviv (Ukraine)
+
+## **Interests**
+Yoga, meditation, psychology, travelling, active and healthy sport life, healthy food
