@@ -1,6 +1,3 @@
-layout: CV
-title: Tetiana's Perevozniuk CV
-___
 # **Tetiana Perevozniuk**
 *Front-End Developer*
 
