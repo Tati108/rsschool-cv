@@ -29,14 +29,14 @@ E: fidget16322@gmail.com
 
 ### **Yoga and meditation teacher**
 #### May 2014 - up to now | Lviv (Ukraine)
-2014.05 – 2016.02 – corporative yoga in IT company, Lviv (Ukraine)
-2015.06 – 2016.02 – psychological center "Tree of Life", Lviv (Ukraine)
-2016.03 – 2016.09 – corporative yoga in Flowair, Gdynia (Poland) 	
-2016.10 – 2020.07 – studio of yoga and meditation Mantra HOUSE, Lviv (Ukraine)
-2017.05 – 2020.06 – one of the organizers and active participant of the festival Lviv Yoga Day, Lviv (Ukraine) 
-2017.03 – 2020.04 – corporative yoga in IT company, Lviv (Ukraine)
-2017.06 – 2018.09 – morning yoga at the TRK Lviv in the early program “Good morning Lviv” live, Lviv (Ukraine) 
-2020.03 – until now – Online Yoga and Meditation with Tetiana Perevozniuk
+* 2014.05 – 2016.02 – corporative yoga in IT company, Lviv (Ukraine)
+* 2015.06 – 2016.02 – psychological center "Tree of Life", Lviv (Ukraine)
+* 2016.03 – 2016.09 – corporative yoga in Flowair, Gdynia (Poland) 	
+* 2016.10 – 2020.07 – studio of yoga and meditation Mantra HOUSE, Lviv (Ukraine)
+* 2017.05 – 2020.06 – one of the organizers and active participant of the festival Lviv Yoga Day, Lviv (Ukraine) 
+* 2017.03 – 2020.04 – corporative yoga in IT company, Lviv (Ukraine)
+* 2017.06 – 2018.09 – morning yoga at the TRK Lviv in the early program “Good morning Lviv” live, Lviv (Ukraine) 
+* 2020.03 – until now – Online Yoga and Meditation with Tetiana Perevozniuk
 
 ### **LLC "NENUTEC UKRAINE" https://ua.nenutec.pl/**
 ### *Chief of sales department* 
