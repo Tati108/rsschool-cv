@@ -102,3 +102,14 @@ electronics and industrial automation;
 * Translations technical documentations.
 
 
+## **Education**
+### **National Technical University of Ukraine "Kyiv Polytechnic Institute" (NTUU "KPI")** 
+### *Automation control electromechanical complexes and electrical actuator*
+### *Master degree*
+#### Septermber 2005 - June 2011 | Kyiv (Ukraine)
+
+## **Languages**
+* English - Intermediate
+* Polish - Upper-Intermediate
+* Russian - Native
+* Ukrainian - Native
