@@ -245,6 +245,53 @@ main {
   margin-left: 50px;
 }
 
+.projects-name {
+  color: #f0670b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.projects-title {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.photofilter {
+  width: 450px;
+}
+
+.projects-img {
+  margin-left: 50px;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+
+.projects-description {
+  box-sizing: border-box;
+  max-width: 50%;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .footer {
   display: flex;
   align-items: center;
