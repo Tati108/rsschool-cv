@@ -7,7 +7,7 @@
     <title>My CV</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="styles_highlight/default.min.css">
+    <link rel="stylesheet" href="hljsstyle.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
@@ -336,14 +336,23 @@
           <section id="code-example">
             <h3 class="main-title code-example">Code Example</h3>
             <p class="description">
-              Follow the
-              <a
-                href="https://github.com/Tati108/rsschool-cv/blob/rsschool-cv-html/index.html"
-                target="_blank"
-                >link</a
-              >
-              to see code of this project
+              Convert decimal numbers to binary. Enjoy! No cheating. No toString.
             </p>
+            <div class="code">
+              <pre>
+                  <code class="javascript">
+                    function decToBin(d) {
+                      if (d === 0){
+                        return '0';
+                      } if (d === 1)
+                        return '1';
+                      else {
+                        return `${decToBin(Math.floor(d / 2))}${d%2}`
+                      }
+                    };
+                  </code>
+              </pre>
+          </div>
           </section>
 
           <!-- courses and trainings container -->
@@ -421,5 +430,7 @@
         <h3>2021</h3>
       </footer>
     </div>
+    <script src="hljsscript.js"></script>
+    <script>hljs.initHighlightingOnLoad()</script>
   </body>
 </html>
