@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My CV</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles_highlight/default.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
@@ -13,27 +15,70 @@
   </head>
   <body>
     <div class="container">
+      <!-- header container -->
+      <header class="header">
+        <nav class="header-menu">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#languages">Languages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work-experience">Work experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#code-example">Code example</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#interests">Interests</a>
+                </li>
+            </ul>
+            <div class="header-burger">
+              <div class="line line1"></div>
+              <div class="line line2"></div>  
+              <div class="line line3"></div>                      
+          </div>
+        </nav>
+    </header>
+
       <!-- main container -->
       <div class="d-flex">
         <aside class="sidebar">
           <!-- photo container -->
-          <img class="my_photo" src="./img/IMG_8996.JPG" alt="My photo" />
+          <img class="my-photo" src="./img/IMG_8996.JPG" alt="My photo" />
 
-          <div class="sidebar_info">
+          <div class="sidebar-info">
             <!-- contacts container -->
-            <section>
-              <h3 class="sidebar_title">Contacts</h3>
+            <section id="contacts">
+              <h3 class="sidebar-title">Contacts</h3>
               <ul>
-                <li class="sidebar_contact_items">
-                  <span class="sidebar_contact_text">Phone:</span>
-                  <a class="sidebar_contact_link" href="tel:+380931840753">
+                <li class="sidebar-contact-items">
+                  <span class="sidebar-contact-text">Phone:</span>
+                  <a class="sidebar-contact-link" href="tel:+380931840753">
                     +380931840753</a
                   >
                 </li>
-                <li class="sidebar_contact_items">
-                  <span class="sidebar_contact_text">Email:</span>
+                <li class="sidebar-contact-items">
+                  <span class="sidebar-contact-text">Email:</span>
                   <a
-                    class="sidebar_contact_link"
+                    class="sidebar-contact-link"
                     href="mailto:fidget16322@gmail.com"
                   >
                     fidget16322@gmail.com</a
@@ -43,39 +88,50 @@
             </section>
 
             <!-- tech skills container -->
-            <section>
-              <h3 class="sidebar_title">Tech Skills</h3>
-              <ul class="sidebar_items">
-                <li><span class="sidebar_text">HTML5</span></li>
-                <li><span class="sidebar_text">CSS3</span></li>
-                <li><span class="sidebar_text">GIT</span></li>
-                <li><span class="sidebar_text">Markdown</span></li>
-                <li><span class="sidebar_text">JavaScript</span></li>
-                <li><span class="sidebar_text">React.js</span></li>
-                <li><span class="sidebar_text">Node.js</span></li>
+            <section id="skills">
+              <h3 class="sidebar-title">Tech Skills</h3>
+              <ul class="sidebar-items">
+                <li><span class="sidebar-text">HTML5</span></li>
+                <li><span class="sidebar-text">CSS3</span></li>
+                <li><span class="sidebar-text">GIT</span></li>
+                <li><span class="sidebar-text">Markdown</span></li>
+                <li><span class="sidebar-text">JavaScript</span></li>
+                <li><span class="sidebar-text">React.js</span></li>
+                <li><span class="sidebar-text">Node.js</span></li>
               </ul>
             </section>
 
             <!-- soft skills container -->
             <section>
-              <h3 class="sidebar_title">Soft Skills</h3>
-              <ul class="sidebar_items">
-                <li><span class="sidebar_text">Scrum</span></li>
-                <li><span class="sidebar_text">Agile</span></li>
-                <li><span class="sidebar_text">GTD</span></li>
-                <li><span class="sidebar_text">Teamwork</span></li>
+              <h3 class="sidebar-title">Soft Skills</h3>
+              <ul class="sidebar-items">
+                <li><span class="sidebar-text">Scrum</span></li>
+                <li><span class="sidebar-text">Agile</span></li>
+                <li><span class="sidebar-text">GTD</span></li>
+                <li><span class="sidebar-text">Teamwork</span></li>
               </ul>
             </section>
+
+            <!-- languages container -->
+          <section id="languages">
+            <h3 class="sidebar-title languages">Languages</h3>
+            <ul class="sidebar-items">
+              <li><span class="sidebar-text">English - Intermediate</span></li>
+              <li><span class="sidebar-text">Polish - Upper-Intermediate</span></li>
+              <li><span class="sidebar-text">Ukrainian - Native</span></li>
+              <li><span class="sidebar-text">Russian - Native</span></li>
+            </ul>
+          </section>
           </div>
         </aside>
 
         <!-- about me main info -->
 
         <main>
-          <header>
+          <div>
             <h1 class="name">Tetiana Perevozniuk</h1>
             <h2 class="profession">Front-End Developer</h2>
-            <p class="description">
+            <p class="description" id="about-me">
               I'm goal oriented, responsible, high efficiency, initiative,
               communicability, positive and discipline person. I have technical
               education and a quick learner in any technical branch. I'm looking
@@ -83,16 +139,16 @@
               and grow professional. I have a big experience in another
               technical branch and know how work in a team.
             </p>
-          </header>
+          </div>
 
           <!-- work experience container -->
-          <section>
-            <h3 class="main_title">Work Experience</h3>
+          <section id="work-experience">
+            <h3 class="main-title work-experience">Work Experience</h3>
 
             <!-- company 1 -->
-            <h4 class="company_name">Yoga and meditation teacher</h4>
+            <h4 class="company-name">Yoga and meditation teacher</h4>
             <h6 class="date">May 2014 - up to now | Lviv (Ukraine)</h6>
-            <ul class="main_items">
+            <ul class="main-items">
               <li>
                 2014.05 – 2016.02 – corporative yoga in IT company, Lviv
                 (Ukraine)
@@ -127,13 +183,13 @@
             </ul>
 
             <!-- company 2 -->
-            <h4 class="company_name">
+            <h4 class="company-name">
               LLC "Nenutec Ukraine"
               <a href="https://ua.nenutec.pl/">https://ua.nenutec.pl/</a>
             </h4>
-            <h5 class="profession_name">Chief of sales department</h5>
+            <h5 class="profession-name">Chief of sales department</h5>
             <h6 class="date">October 2016 - November 2018 | Lviv (Ukraine)</h6>
-            <ul class="main_items">
+            <ul class="main-items">
               <li>Selections automation equipment;</li>
               <li>
                 Technical support and advice in the selection of equipment for
@@ -154,15 +210,15 @@
             </ul>
 
             <!-- company 3 -->
-            <h4 class="company_name">
+            <h4 class="company-name">
               Flowair Głogowski i Brzeziński Sp.j.
               <a href="https://www.flowair.com/">https://www.flowair.com/</a>
             </h4>
-            <h5 class="profession_name">
+            <h5 class="profession-name">
               Technical support in the export department
             </h5>
             <h6 class="date">March 2016 - September 2016 | Gdynia (Poland)</h6>
-            <ul class="main_items">
+            <ul class="main-items">
               <li>
                 Selection of air-heating equipment, air curtains and non-channel
                 ventilation;
@@ -188,19 +244,19 @@
             </ul>
 
             <!-- company 4 -->
-            <h4 class="company_name">
+            <h4 class="company-name">
               LLC "Gradevent"
               <a href="http://www.gradevent.com.ua/"
                 >http://www.gradevent.com.ua/</a
               >
             </h4>
-            <h5 class="profession_name">Chief of technical department</h5>
+            <h5 class="profession-name">Chief of technical department</h5>
             <h6 class="date">March 2014 - February 2016 | Lviv (Ukraine)</h6>
-            <h5 class="profession_name">Engineer of selection HVAC units</h5>
+            <h5 class="profession-name">Engineer of selection HVAC units</h5>
             <h6 class="date">May 2012 - March 2014 | Lviv (Ukraine)</h6>
-            <h5 class="profession_name">Sales manager of HVAC systems</h5>
+            <h5 class="profession-name">Sales manager of HVAC systems</h5>
             <h6 class="date">October 2011 - May 2012 | Lviv (Ukraine)</h6>
-            <ul class="main_items">
+            <ul class="main-items">
               <li>
                 Selections ventilations and cooling units in selection programs
                 from manufacturer;
@@ -236,13 +292,13 @@
             </ul>
 
             <!-- company 5 -->
-            <h4 class="company_name">
+            <h4 class="company-name">
               LLC "Dacpol Ukraine"
               <a href="https://www.dacpol.eu/">https://www.dacpol.eu/</a>
             </h4>
-            <h5 class="profession_name">Sales manager</h5>
+            <h5 class="profession-name">Sales manager</h5>
             <h6 class="date">September 2010 - July 2011 | Kyiv (Ukraine)</h6>
-            <ul class="main_items">
+            <ul class="main-items">
               <li>Prepare of commercial offers;</li>
               <li>Search for new and maintenance of regular customers;</li>
               <li>
@@ -262,23 +318,23 @@
           </section>
 
           <!-- education container -->
-          <section>
-            <h3 class="main_title">Education</h3>
-            <h4 class="company_name">
+          <section id="education">
+            <h3 class="main-title education">Education</h3>
+            <h4 class="company-name">
               National Technical University of Ukraine "Kyiv Polytechnic
               Institute" (NTUU "KPI")
             </h4>
-            <h5 class="profession_name">
+            <h5 class="profession-name">
               Automation control electromechanical complexes and electrical
               actuator
             </h5>
-            <h5 class="profession_degree">Master degree</h5>
+            <h5 class="profession-degree">Master degree</h5>
             <h6 class="date">Septermber 2005 - June 2011 | Kyiv (Ukraine)</h6>
           </section>
 
           <!-- code example container -->
-          <section>
-            <h3 class="main_title">Code Example</h3>
+          <section id="code-example">
+            <h3 class="main-title code-example">Code Example</h3>
             <p class="description">
               Follow the
               <a
@@ -290,21 +346,10 @@
             </p>
           </section>
 
-          <!-- languages container -->
-          <section>
-            <h3 class="main_title">Languages</h3>
-            <ul class="main_items">
-              <li>English - Intermediate</li>
-              <li>Polish - Upper-Intermediate</li>
-              <li>Russian - Native</li>
-              <li>Ukrainian - Native</li>
-            </ul>
-          </section>
-
           <!-- courses and trainings container -->
-          <section>
-            <h3 class="main_title">Courses and Trainings</h3>
-            <ol class="main_items">
+          <section id="courses">
+            <h3 class="main-title courses">Courses and Trainings</h3>
+            <ol class="main-items">
               <li>
                 <h4>English language school "GreenForest"</h4>
                 <p>Level: Intermediate</p>
@@ -356,8 +401,8 @@
           </section>
 
           <!-- interests container -->
-          <section>
-            <h3 class="main_title">Interests</h3>
+          <section id="interests">
+            <h3 class="main-title interests">Interests</h3>
             <p class="description">
               Yoga, meditation, psychology, travelling, active and healthy sport
               life, healthy food

@@ -1,16 +1,80 @@
-body {
+
+html, body {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
+  overflow-x: hidden;
   font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+nav {
+  padding: 15px 10px;
+  font-display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 7vh; 
+  background-color: #2c3e58;
 }
 
 .container {
-  background: floralwhite;
-  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
   max-width: 1200px;
-  margin: 0 auto;
+  min-width: 320px;     
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: floralwhite;
+  margin: 0px auto;
+  padding: 0px; 10px;
+}
+
+.header-menu {
+  position: relative;
+}
+
+.header-burger {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;    
+  margin: 0;
+  padding: 25px;
+  background-color: #2c3e58;
+}
+
+.nav-list li {
+  list-style: none;
+  display: inline;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #c5c8cc;
+  font-size: 18px;
+  font-weight: bold;
+  transition: linear .3s;
+}
+.nav-list a:hover {
+  border-bottom: 2px solid #f0670b ;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between
+  width: 40%;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #c5c8cc;
 }
 
 .d-flex {
@@ -19,16 +83,15 @@ body {
 
 .sidebar {
   background: #2c3e58;
-  width: 370px;
-  padding-top: 40px;
+  width: 50%;
   padding-bottom: 40px;
 }
 
-.sidebar_info {
+.sidebar-info {
   padding: 30px;
 }
 
-.sidebar_title {
+.sidebar-title {
   color: #c5c8cc;
   font-size: 22px;
   font-weight: 700;
@@ -38,7 +101,7 @@ body {
   margin-right: 30px;
 }
 
-.sidebar_items {
+.sidebar-items {
   color: #f0670b;
   font-size: 14px;
   font-weight: 400;
@@ -48,19 +111,19 @@ body {
   margin-right: 30px;
 }
 
-.sidebar_text {
+.sidebar-text {
   color: #c5c8cc;
 }
 
-.my_photo {
+.my-photo {
   width: 370px;
 }
 
-.sidebar_contact_items {
+.sidebar-contact-items {
   list-style-type: none;
 }
 
-.sidebar_contact_text {
+.sidebar-contact-text {
   color: #f0670b;
   font-size: 14px;
   font-weight: 400;
@@ -68,12 +131,20 @@ body {
   padding: 0;
 }
 
-.sidebar_contact_link {
+.sidebar-contact-link {
   color: #c5c8cc;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 
 .name {
   color: #000000;
@@ -104,7 +175,7 @@ body {
   margin-right: 50px;
 }
 
-.main_title {
+.main-title {
   color: #000000;
   font-size: 20px;
   font-weight: 700;
@@ -115,7 +186,7 @@ body {
   margin-right: 50px;
 }
 
-.company_name {
+.company-name {
   color: #f0670b;
   font-size: 18px;
   font-weight: 700;
@@ -126,7 +197,7 @@ body {
   margin-right: 50px;
 }
 
-.profession_name {
+.profession-name {
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -137,7 +208,7 @@ body {
   margin-right: 50px;
 }
 
-.profession_degree {
+.profession-degree {
   color: #000000;
   font-size: 12px;
   font-weight: 700;
@@ -159,7 +230,7 @@ body {
   margin-right: 50px;
 }
 
-.main_items {
+.main-items {
   color: #595959;
   font-size: 14px;
   font-weight: 400;
@@ -174,8 +245,9 @@ body {
   display: flex;
   align-items: center;
   padding: 10px 50px;
-  color: #000000;
+  color:  #c5c8cc;
   justify-content: space-between;
+  background-color: #2c3e58;
 }
 
 .logo {
