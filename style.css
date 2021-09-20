@@ -24,7 +24,7 @@ nav {
   border-radius: 5px;
   background-color: floralwhite;
   margin: 0px auto;
-  padding: 0px; 15px;
+  padding: 0px;
 }
 
 .header-menu {
@@ -239,7 +239,7 @@ main {
 }
 
 .javascript {
-  width: 100%;
+  width: 90%;
   display: flex;
   margin-left: 50px;
 }
